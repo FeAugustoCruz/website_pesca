@@ -1,0 +1,200 @@
+@charset "UTF-8";
+/*FORMATAÇÃO DOS PARÁGRAFOS*/
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Crimson+Text&family=Lato:wght@700&family=Libre+Baskerville&family=Merriweather:ital,wght@1,300&family=Source+Serif+Pro&display=swap');
+/*FORMATAÇÃO DOS SUBTITULOS*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+/*FORMATAÇÃO DO TITULO PRINCIPAL*/
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Crimson+Text&family=Libre+Baskerville&family=Merriweather:ital,wght@1,300&family=Source+Serif+Pro&display=swap');
+
+
+
+
+
+/*FORMATAÇÃO DO TITULO PRINCIPAL*/
+header#maintitulo{
+	margin-top: -20px;
+	font-family: 'Amiri', serif;
+	color: rgba(0,0,0,0.7);
+}
+
+header#maintitulo h1{
+	margin-bottom: -40px;
+}
+
+
+/*FORMATAÇÃO DOS DUBTITULOS*/
+.titulos{
+	font-family: 'Merriweather', serif;
+}
+
+
+.idioma{
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	text-align: center;
+	margin-top: -10px;
+}
+
+
+.dicas-format{
+	border: 1px solid #c3c9de;
+	background-color: #c3c9de;
+	border-radius: 12px;
+	padding: 20px;
+}
+
+
+.exemplo p{
+	text-align: center;
+	border: dashed black;
+	padding: 20px;
+}
+
+
+.exemplo2 p{
+	margin-left: auto;
+	margin-right: auto;
+	width: 6em;
+	border: dashed black;
+	padding-right: 150px;
+	padding-left: 150px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+.exemplo3{
+	border: dashed black;
+	padding-top: 20px;
+	padding-bottom: 40px;
+	padding-right: 30px;
+	padding-left: 5px;
+}
+
+
+.exemplo3 img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	padding: 2px;
+}
+
+nav#formatlist{
+	right: 40px;
+	position: relative;
+}
+
+
+nav#formatlist li{
+	font-family: 'Lato', sans-serif;
+	color: blue;
+	font-size: 15px;
+	padding: 3px;
+	border: 1px solid white;
+	margin-right: 140px;
+	margin-bottom: 2px;
+
+}
+
+
+nav#formatlist li:hover{
+	border: 1px solid yellow;
+}
+
+
+
+nav#formatlist ul{
+	list-style: none;
+}
+
+
+nav#formatlist li::before {
+	content: "•        "; color: black;
+
+}
+
+
+body#corpo{
+	background-color: rgba(0,0,0,0.2);
+}
+
+/*FORMATAÇÃO DA INTERFACE E DO CABEÇALHO*/
+div#interface{
+	background-color: white;
+	margin: 85px 50px 10px 50px;
+	padding-bottom: 20px;
+	box-shadow: 1px 1px 5px black;
+}
+
+
+div#cabecalho{
+	background-color: rgba(0,0,0,0.3);
+	border-bottom: double;
+}
+/*------------------------------------------*/
+
+header#titulo h1{
+	font-family: Arial, sans-seriaf;
+	font-size: 30pt;
+	padding: 0px 0px 0px 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+
+header#titulo h2{
+	font-family: Arial, sans-seriaf;
+	font-size: 30pt;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+
+nav#menu ul{
+	list-style: none;
+}
+
+
+nav#menu li{
+	font-family: Arial, sans-seriaf;
+	text-decoration: none;
+	display: inline-block;
+	color: blue;
+	padding: 10px;
+	margin: 4px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+}
+
+nav#menu li:hover{
+	border-color: yellow;
+}
+
+figure.foto-legenda{
+	border: 1px solid rgba(0,0,0,0);
+}
+
+figure.foto-legenda:hover{
+	border: 1px solid yellow;
+	transition: 0.5s;
+}
+
+div#corpoo{
+	background-color: white;
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+div#lateral{
+	background-color: white;
+	height: 1959px;
+	width: 50%;
+	float: right;
+}

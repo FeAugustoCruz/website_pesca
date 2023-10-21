@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Copia</title>
+	<link rel="stylesheet" type="text/css" href="estilocopia.css">
+</head>
+<body id="corpo">
+
+	<div id="interface">
+
+
+		<div id="cabecalho">
+			<div>
+			<header id="maintitulo">
+				<h1>Folhas de estilos</h1>
+				<h2>Css dicas & truques</h2>
+			</header>
+			</div>
+
+
+			<div style="position: absolute; top: 75px; left: 1100px">
+			<figure class="foto-legenda">
+				<img src="idiomas22.png">
+				<figcaption>
+					<h1 class="idioma">Idiomas</h1>
+				</figcaption>
+			</figure>
+			</div>
+		</div>
+
+
+
+		<div>
+			<nav id="menu">
+				<ul>
+					<li>HOME CSS</li>
+					<li>APRENDA & USE</li>
+					<li>SOFTWARE</li>
+					<li>PARTICIPE/RASCUNHO</li>
+				</ul>
+			</nav>
+		</div>
+
+
+
+		<div>
+			<p class="dicas-format">Ver index para todas as dicas</p>
+		</div>
+
+
+		<div>
+			<h2 class="titulos">CENTRALÍZANDO AS COISAS</h2>
+			<p>Uma tarefa comum em CSS é a centrallização de textos e imagens.
+			 Existem três tipos de tarefas relacionadas à centralização:</p>
+			 <nav id="formatlist">
+			 	<ul>
+			 		<li>Centrar linhas de textos</li>
+			 		<li>Centralizar um bloco de texto ou uma imagem</li>
+			 		<li>Centrar na vertical um bloco ou uma imagem</li>
+			 	</ul>
+			 </nav>
+			 <p>As recentes implementações das CSS nível 3 prevêem funcionalidades que permitem centrar elementos posicionados de forma absoluta:</p>
+			 <nav id="formatlist">
+			 	<ul>
+			 		<li>Centrar na vertical com CSS3</li>
+			 		<li>Centrar na vertical e na horizontal</li>
+			 		<li>Centrar na viewport com CSS3</li>
+			 	</ul>
+			 </nav>
+		</div>
+
+
+		<div>
+			<h2 class="titulos">CENTRAR LINHAS DE TEXTOS</h2>
+			<p>Centrar textos de títulos ou parágrafos é a mais simples e comum tarefa de centralização. Basta usar a propriedade CSS 'text-align', conforme mostrado a seguir:</p>
+
+
+			<pre>
+				<code>
+					P { text-align: center}
+					H2 { text-align: center}
+				</code>
+			</pre>
+			<p>As regras CSS mostradsa renderizam xada uma das linhas de P ou de H2 centralizadas na horizontasm conforme mostrado a seguir:</p>
+
+
+			<div class="exemplo">
+				<p>Todas as linhas desse parágrafo estão centralizadas na horizontal, entre margens do parágrafo graças ao valor 'center' declarado para a propriedade CSS 'text-align'.</p>
+			</div>
+
+
+		</div>
+
+
+		<div>
+			<h2 class="titulos">CENTRAR UM BLOCO OU UMA IMAGEM</h2>
+			<p>Outra tarefa de centralização consiste em centrar não um texto, mas um bloco como um todo. Dito de outra forma: definir margens esquerda e direirta iguais par um bloco. Para obter esse efeito usamos o valor 'auto' para a proriedade margin. É necessário que o bloco tenha uma largura fixa, pois em se tratando de blocos flexíveis ele assumira a largura total disponível. Observe o exemplo a seguir: </p>
+			<pre>
+				<code>
+					P.blocktext {
+						margin-left: auto;
+						margin-right: auto;
+						width: 6em
+				}
+				...
+					< P class="blocktext"> Esse bloco de texto...
+				</code>
+			</pre>
+
+
+				<div class="exemplo2">
+					<p>Esse bloco de texto com largura reduzida está centralizado. Notar que as linhas de texto do bloco não estão centralizadas (elas estão alinhadas à esquerda) ao contrário do que foi mostrado no exemplo anterior...</p>
+				</div>
+
+
+				<p>Esta é, também, a técnica usada para centralizar uma imagem: defina nível de bloco para a imagem e o valor 'auto' para as margens esquerda e direita, conforme mostrado a seguir:</p>
+
+				<pre>
+				<code>
+					IMG.displayed {
+    				display: block;
+    				margin-left: auto;
+    				margin-right: auto }
+					...
+					< IMG class="displayed" src="..." alt="...">
+				</code>
+				</pre>
+
+				<div class="exemplo3">
+					<p>A imagem mostrada está centralizada na horizontal:</p>
+					<img src="ovelinha.png">
+				</div>
+		</div>
+
+		<div>
+		</div>
+
+
+	</div>
+</body>
+</html>
