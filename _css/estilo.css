@@ -5,7 +5,7 @@
 
 
 div#Corpo{
-	background-color:;
+	background-color: black;
 }
 
 div#Corpo-Central{
@@ -30,14 +30,14 @@ header#titulo h2{
 div#Site{
 	width: auto;
 	height: 1000px;
-	background-color:;
+	background-color: wheat;
 
 }
 
 div#Cabecalho{
 	height: 100px;
 	width: auto;
-	background-color:;
+	background-color: white;
 }
 
 div#Corpo-Central{
