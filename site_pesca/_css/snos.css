@@ -6,7 +6,7 @@
 div#Artigo{
 	border-radius: 4px;
 	border-color: white;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.679);
 	width: 70%;
 	margin-right: auto;
 	margin-left: auto;
